@@ -1,7 +1,7 @@
 # Custom-OpenAI-Chatbot
 
 ## Project Details
-In this project created a custom OpenAI chatbot that incorporates the articel 
+In this project a custom OpenAI chatbot was created that incorporates the article 
 [2023 Turkey-Syria earthquakes](https://en.wikipedia.org/wiki/2023_Turkey-Syria_earthquakes) from Wikipedia.
 
 The notebook shows the difference of the model's answers depending on whether a custom prompt or a basic prompt is used. The functions for data cleaning, creating the embeddings and constructing the prompt for a specific question can be found in `utils.py`.
@@ -37,3 +37,4 @@ The code of this project was tested on Linux (Ubuntu 20.04). To get the code run
 6.  `pip install -r requirements.txt`
 7.  `python -m ipykernel install --user --name chatbot --display-name "chatbot"`
 8.  `jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10`
+9.  In the notebook, select kernel `chatbot` and provide your own OpenAI API key.
